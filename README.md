@@ -1,2 +1,3 @@
 # Estudos
-Estudos, exercicios etc
+
+Esse repositório foi criado com o objetivo de postar meus estudos e exercícios.
