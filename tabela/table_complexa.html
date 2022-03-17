@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CHRIS | TECH</title>
+</head>
+<body>
+
+  <h1>Página index!</h1>
+  <table border="1"><!--Iniciando uma tabela-->
+    <caption>Lojas</caption><!--Descrição da tabela-->
+
+    <colgroup> <!--Formatação e estilização-->
+      <col style="background-color:violet"> <!--Define as propriedades e é um elemento vazio-->
+      <col span="2" style="background-color:aqua">
+      <col span="2" style="background-color:yellow">
+      <col span="2" style="background-color:red">
+    </colgroup>
+
+    <thead><!--Iniciando um cabeçalho-->
+      <tr><!--Iniciando uma linha-->
+        <th rowspan="2">Itens</th><!--Abrindo uma coluna que ocupa 2 linhas-->
+        <th colspan="2">Loja 1</th><!--Abrindo uma coluna que ocupa 2 colunas-->
+        <th colspan="2">Loja 2</th><!--Abrindo uma coluna que ocupa 2 colunas-->
+        <th colspan="2">Loja 3</th><!--Abrindo uma coluna que ocupa 2 colunas-->
+      </tr>
+
+      <tr>
+        <th>Produzidos</th><!--Coluna da loja 1-->
+        <th>Vendidos</th><!--Coluna da Loja 1-->
+        <th>Produzidos</th> <!--Coluna da Loja 2-->
+        <th>Vendidos</th><!--Coluna da loja 2-->
+        <th>Produzidos</th><!--Coluna da loja 2-->
+        <th>Vendidos</th> <!--Coluna da loja 2-->
+      </tr>
+    </thead>
+    <tbody> <!--Corpo da tabela-->
+      <tr>
+        <th>Vassoura</th> <!--Coluna vassoura-->
+        <td>10</td> <!--Dados vassoura-->
+        <td>20</td>
+        <td>30</td>
+        <td>40</td>
+        <td>55</td>
+        <td>20</td>
+      </tr>
+      
+      <tr>
+        <th>Laranja</th> <!--Coluna Laranja-->
+        <td>20</td> <!--Dados Laranja-->
+        <td>3</td>
+        <td>50</td>
+        <td>3</td>
+        <td>3</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
